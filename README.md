@@ -2,6 +2,20 @@
 
 This directory contains all documentation and configuration files related to the PREEMPT_RT kernel porting for Raspberry Pi 5.
 
+## 🖼️ Screenshots & Verification Images
+
+![RT Kernel Verification](images/20251025_073120.jpg)
+*Kernel version verification showing 6.12.25-rt13-v8-16k*
+
+![RT Configuration](images/20251025_073437.jpg)
+*PREEMPT_RT configuration verification*
+
+![RT Scheduling](images/20251025_073944.jpg)
+*RT scheduling classes verification*
+
+![RT Runtime Settings](images/20251025_074035.jpg)
+*RT runtime and period settings*
+
 ## 📁 Directory Contents
 
 ### 📘 Main Documentation
@@ -143,6 +157,17 @@ For issues or questions:
 1. Check **RT-KERNEL-UPGRADE-COMPLETE-GUIDE.md** Troubleshooting section
 2. Review **RT-VERIFICATION-QUICK-REFERENCE.md** Debug commands
 3. Consult **RT-TECHNICAL-SUMMARY.md** for architecture details
+
+## 📸 Verification Screenshots
+
+All verification screenshots from the RT kernel deployment on Raspberry Pi 5 are stored in the `images/` directory:
+
+- **20251025_073120.jpg** - Kernel version verification (6.12.25-rt13-v8-16k)
+- **20251025_073437.jpg** - PREEMPT_RT configuration check
+- **20251025_073944.jpg** - RT scheduling classes verification
+- **20251025_074035.jpg** - RT runtime settings confirmation
+
+These images provide visual proof of successful RT kernel deployment and can be used for verification and troubleshooting.
 
 ---
 
